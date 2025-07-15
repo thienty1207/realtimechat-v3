@@ -1,19 +1,18 @@
-# Realtime-chat-app
+# Broconnect - Real-time Language Learning Chat Platform
 
-<div align="center">Connect and chat in real-time, with a modern and responsive interface.</div>
+<div align="center">Connect with language learners worldwide and practice languages through real-time conversations, group chats, and code collaboration.</div>
 
 <div align="center">
   
-[![last commit](https://img.shields.io/badge/last%20commit-May%202025-blue)](https://github.com/yourusername/Realtime-chat-app)
-[![languages](https://img.shields.io/badge/languages-2-blue)](https://github.com/yourusername/Realtime-chat-app)
+[![last commit](https://img.shields.io/badge/last%20commit-January%202025-blue)](https://github.com/yourusername/realtimechat-v3)
+[![languages](https://img.shields.io/badge/languages-JavaScript-blue)](https://github.com/yourusername/realtimechat-v3)
 
 </div>
 
-<div align="center">Built with the tools and technologies:</div>
+<div align="center">Built with modern technologies:</div>
 
 <div align="center">
   
-<!-- These technologies are confirmed to be used in the codebase -->
 [![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
 [![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
 [![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org/)
@@ -24,142 +23,309 @@
 <div align="center">
   
 [![Socket.IO](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socket.io&logoColor=white)](https://socket.io/)
-[![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)](https://jwt.io/)
-[![Mongoose](https://img.shields.io/badge/Mongoose-880000?style=for-the-badge&logo=mongoose&logoColor=white)](https://mongoosejs.com/)
+[![Stream Chat](https://img.shields.io/badge/Stream_Chat-005FF9?style=for-the-badge&logo=stream&logoColor=white)](https://getstream.io/)
+[![Stream Video](https://img.shields.io/badge/Stream_Video-005FF9?style=for-the-badge&logo=stream&logoColor=white)](https://getstream.io/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 
 </div>
 
 <div align="center">
   
-[![Stream](https://img.shields.io/badge/Stream-005FF9?style=for-the-badge&logo=stream&logoColor=white)](https://getstream.io/)
-[![Axios](https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white)](https://axios-http.com/)
-[![dotenv](https://img.shields.io/badge/dotenv-ECD53F?style=for-the-badge&logo=dotenv&logoColor=black)](https://github.com/motdotla/dotenv)
+[![React Query](https://img.shields.io/badge/React_Query-FF4154?style=for-the-badge&logo=react-query&logoColor=white)](https://tanstack.com/query)
+[![Monaco Editor](https://img.shields.io/badge/Monaco_Editor-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)](https://microsoft.github.io/monaco-editor/)
+[![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)](https://jwt.io/)
+[![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
 
 </div>
 
 ## Screenshots
 
 ![Home Page](./image/homepage.png?v=2)
-*Home Interface*
+*Home Interface - Find language learning partners*
 
 ![Sign Up](./image/createaccountpage.png?v=2)
-*Signup Interface*
+*User Registration Interface*
 
 ![Sign In](./image/loginpage.png?v=2)
-*Signin Interface*
+*User Login Interface*
 
 ![Complete Profile](./image/completeprofilepage.png?v=2)
-*Complete Profile Interface*
+*Profile Setup - Set native and learning languages*
 
 ![Chat Interface](./image/chatpage.png?v=2)
-*Realtime Chat Interface*
+*Real-time Chat Interface with Stream Chat*
 
 ![Notifications](./image/notificationspage.png?v=2)
-*Notifications Interface*
+*Friend Requests and Notifications*
 
 ![Call Interface](./image/callapp.png?v=2)
-*App Call Interface*
+*Video Calling with Stream Video SDK*
 
-## Objective
-This project aims to create a real-time chat application with the following goals:
-1. Enable instant messaging between users
-2. Support private and group conversations
-3. Provide secure user authentication
-4. Deliver a responsive and intuitive UI
-5. Allow message history and media sharing
-6. Implement video calling capabilities
+![Group Chat Interface](./image/groupchat.png?v=2)
+*Group Chat Management*
 
-## Methodology
-The system is built using a MERN architecture with React frontend and Node.js/Express backend:
+![Group Chat Detail Interface](./image/groupchatdetail.png?v=2)
+*Group Chat Conversation View*
 
-### Backend Design
-- **Express.js Backend**: Handles user authentication, profile management, friend requests, and chat operations
-- **Authentication**: JWT-based authentication secures user access
-- **Database**: MongoDB stores user data and message history
-- **Real-time**: Stream Chat API enables instant message delivery and video calls
-- **Validation**: Server-side validation ensures data integrity
-- **Socket.IO**: Enables real-time notifications and friend management updates
+![Manage Group Chat Interface](./image/ManageGroup.png?v=2)
+*Group Administration and Member Management*
 
-### Frontend Design
-- **Interface**: React with Tailwind CSS creates a responsive UI
-- **State Management**: React Context API and React Query manage application state
-- **Real-time**: Stream Chat client for real-time messaging
-- **HTTP Requests**: Axios handles API communication with the backend
+![Call & Streaming Interface](./image/CallandSharingScreeninGroup.png?v=2)
+*Group Video Calls with Screen Sharing*
 
-### Process
-- User registers or logs in through the Express authentication system
-- Express backend validates credentials and issues JWT tokens
-- Users can create chats, send messages, and receive real-time updates
-- Messages are stored in MongoDB for persistence
-- Frontend updates in real-time when new messages arrive
+![Code Playground](./image/Codeplayground.png?v=2)
+*Collaborative Code Editor with Monaco Editor*
 
-## Tools
-- **Backend**: 
-  - **Node.js/Express**: Full API handling including user management, authentication, and chat
-- **Database**: MongoDB, Mongoose
-- **Frontend**: React, Tailwind CSS, Axios
-- **Real-time Communication**: Stream Chat API, Socket.IO
-- **Authentication**: JWT, bcrypt
-- **Development**: Nodemon, Vite
+## About Broconnect
 
-## Features
-1. Real-time messaging with typing indicators
-2. User authentication and profile management
-3. Private and group chat support
-4. Message history persistence
-5. Responsive design for mobile and desktop
-6. Online status indicators
-7. Read receipts
-8. Media sharing capabilities
-9. Video calling integration
-10. Real-time friend request management with notifications
+Broconnect is a comprehensive language learning platform that connects people from around the world to practice languages together. The platform combines real-time messaging, video calls, group conversations, and collaborative coding to create an immersive language learning experience.
+
+### Key Features
+
+1. **Language-focused Matching**: Connect with native speakers and learners based on language preferences
+2. **Real-time Messaging**: Instant messaging with typing indicators and message persistence
+3. **Group Conversations**: Create and manage language learning groups
+4. **Video Calling**: High-quality video calls for pronunciation practice
+5. **Friend System**: Send/accept friend requests with real-time notifications
+6. **Code Collaboration**: Practice programming languages together with Monaco Editor
+7. **Profile Management**: Comprehensive user profiles with language preferences
+8. **Responsive Design**: Works seamlessly on desktop and mobile devices
+9. **Theme Support**: Multiple UI themes for personalized experience
+10. **Real-time Notifications**: Instant updates for friend requests and messages
+
+## Technology Stack
+
+### Frontend (React 19 + Vite)
+- **Framework**: React 19 with modern hooks
+- **Styling**: Tailwind CSS with DaisyUI components
+- **State Management**: Zustand for global state, React Query for server state
+- **Real-time Chat**: Stream Chat React SDK
+- **Video Calls**: Stream Video React SDK
+- **Code Editor**: Monaco Editor for collaborative coding
+- **Routing**: React Router v7
+- **HTTP Client**: Axios with interceptors
+- **Build Tool**: Vite for fast development and building
+
+### Backend (Node.js + Express)
+- **Runtime**: Node.js with Express.js framework
+- **Database**: MongoDB with Mongoose ODM
+- **Authentication**: JWT tokens with HTTP-only cookies
+- **Real-time**: Socket.IO for friend requests and notifications
+- **File Upload**: Multer for profile picture uploads
+- **Security**: bcryptjs for password hashing
+- **API Integration**: Stream Chat and Video server-side SDKs
+
+### External Services
+- **Stream Chat**: Powers real-time messaging and chat features
+- **Stream Video**: Handles video calling and screen sharing
+- **MongoDB Atlas**: Cloud database hosting
+- **Avatar Service**: iran.liara.run for default profile pictures
+
+## Project Structure
+
+```
+broconnect/
+├── frontend/                    # React frontend application
+│   ├── src/
+│   │   ├── components/         # Reusable UI components
+│   │   │   ├── Layout.jsx      # Main layout wrapper
+│   │   │   ├── Navbar.jsx      # Navigation bar
+│   │   │   ├── Sidebar.jsx     # Application sidebar
+│   │   │   ├── SocketProvider.jsx # Socket.IO context
+│   │   │   └── ...
+│   │   ├── pages/              # Page components
+│   │   │   ├── HomePage.jsx    # Main dashboard
+│   │   │   ├── ChatPage.jsx    # Private chat interface
+│   │   │   ├── GroupChatPage.jsx # Group chat interface
+│   │   │   ├── OnboardingPage.jsx # Profile setup
+│   │   │   ├── CodePlaygroundPage.jsx # Code editor
+│   │   │   └── ...
+│   │   ├── hooks/              # Custom React hooks
+│   │   ├── lib/                # Utility libraries
+│   │   │   ├── api.js          # API functions
+│   │   │   ├── socket.js       # Socket.IO client
+│   │   │   └── utils.js        # Helper functions
+│   │   ├── store/              # Zustand stores
+│   │   └── constants/          # Application constants
+│   ├── public/                 # Static assets
+│   └── package.json
+└── backend/                     # Express.js backend
+    ├── src/
+    │   ├── controllers/        # Request handlers
+    │   │   ├── auth.controller.js      # Authentication
+    │   │   ├── user.controller.js      # User management
+    │   │   ├── chat.controller.js      # Chat functionality
+    │   │   └── groupChat.controller.js # Group management
+    │   ├── models/             # MongoDB schemas
+    │   │   ├── User.js         # User model
+    │   │   ├── FriendRequest.js # Friend request model
+    │   │   └── GroupChat.js    # Group chat model
+    │   ├── routes/             # API route definitions
+    │   ├── middleware/         # Express middleware
+    │   ├── lib/                # Backend utilities
+    │   └── server.js           # Application entry point
+    ├── uploads/                # File storage
+    └── package.json
+```
+
+## API Documentation
+
+### Authentication Endpoints
+- `POST /api/auth/signup` - Register new user
+- `POST /api/auth/login` - User login
+- `POST /api/auth/logout` - User logout
+- `GET /api/auth/me` - Get current user info
+- `POST /api/auth/onboarding` - Complete user profile setup
+- `PUT /api/auth/profile` - Update user profile
+
+### User Management
+- `GET /api/users` - Get recommended users for language learning
+- `GET /api/users/friends` - Get user's friends list
+- `POST /api/users/friend-request/:id` - Send friend request
+- `PUT /api/users/friend-request/:id/accept` - Accept friend request
+- `DELETE /api/users/friend-request/:id/reject` - Reject friend request
+- `DELETE /api/users/friend-request/:id/cancel` - Cancel sent request
+- `DELETE /api/users/friends/:id` - Remove friend
+- `GET /api/users/friend-requests` - Get incoming friend requests
+- `GET /api/users/outgoing-friend-requests` - Get outgoing requests
+
+### Chat & Communication
+- `GET /api/chat/token` - Get Stream Chat authentication token
+- `POST /api/chat/messages` - Save chat message
+- `POST /api/chat/upsert-target-user` - Upsert user to Stream Chat
+
+### Group Chat Management
+- `POST /api/groups/create` - Create new group chat
+- `GET /api/groups/my-groups` - Get user's group chats
+- `POST /api/groups/:groupId/add-members` - Add members to group
+- `POST /api/groups/:groupId/leave` - Leave group
+- `POST /api/groups/:groupId/kick/:memberId` - Kick member (admin only)
+- `PUT /api/groups/:groupId/update` - Update group info
+- `DELETE /api/groups/:groupId/delete` - Delete group (creator only)
+- `GET /api/groups/:groupId/members/search` - Search group members
 
 ## Getting Started
 
 ### Prerequisites
-- Node.js (v16 or higher)
-- MongoDB
-- npm or yarn
+- Node.js 18+ and npm
+- MongoDB (local or Atlas)
+- Stream account (for Chat and Video APIs)
 
-### Project Structure
-```
-realtime-chat/
-├── frontend/            # React frontend
-└── backend/             # Express.js backend for all functionality
-    ├── src/             # Source code
-      ├── controllers/   # Request handlers
-      ├── middleware/    # Express middleware (auth, error handling)
-      ├── models/        # Data models for MongoDB
-      ├── routes/        # API route definitions
-      ├── lib/           # Utility libraries
-      └── server.js      # Express app setup and entry point
+### Installation
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/yourusername/broconnect.git
+cd broconnect
 ```
 
-## API Endpoints
+2. **Backend Setup**
+```bash
+cd backend
+npm install
+```
 
-### Express Backend (port 5001)
-- `POST /api/auth/register`: Register a new user
-- `POST /api/auth/login`: User login
-- `GET /api/users`: Get recommended users (not all users)
-- `GET /api/users/friends`: Get user's friends
-- `POST /api/users/friend-request/:id`: Send friend request
-- `PUT /api/users/friend-request/:id/accept`: Accept friend request
-- `DELETE /api/users/friend-request/:id/reject`: Reject friend request
-- `DELETE /api/users/friend-request/:id/cancel`: Cancel sent friend request
-- `DELETE /api/users/friends/:id`: Remove friend
-- `GET /api/users/friend-requests`: Get incoming friend requests
-- `GET /api/users/outgoing-friend-requests`: Get outgoing friend requests
-- `GET /api/chat/debug`: Debug endpoint for authentication
-- `GET /api/chat/token`: Get Stream Chat token
-- `POST /api/chat/messages`: Save chat messages
+Create `.env` file in backend directory:
+```env
+PORT=5001
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET_KEY=your_jwt_secret
+STEAM_API_KEY=your_stream_api_key
+STEAM_API_SECRET=your_stream_api_secret
+NODE_ENV=development
+```
 
-## Future Plans
-1. Enhanced video calling features
-2. End-to-end encryption
-3. Push notifications
-4. File sharing and cloud storage
-5. Message search functionality
+3. **Frontend Setup**
+```bash
+cd ../frontend
+npm install
+```
+
+Create `.env` file in frontend directory:
+```env
+VITE_STREAM_API_KEY=your_stream_api_key
+```
+
+4. **Start Development Servers**
+
+Backend (port 5001):
+```bash
+cd backend
+npm run dev
+```
+
+Frontend (port 5173):
+```bash
+cd frontend
+npm run dev
+```
+
+### Production Deployment
+
+1. **Build frontend**
+```bash
+cd frontend
+npm run build
+```
+
+2. **Start backend in production mode**
+```bash
+cd backend
+npm start
+```
+
+## Real-time Features
+
+### Socket.IO Events
+- `register` - Register user for real-time notifications
+- `friendRequest` - New friend request received
+- `friendRequestAccepted` - Friend request accepted
+- `friendRequestCanceled` - Friend request canceled
+- `unfriended` - User unfriended
+- `groupChatInvite` - Invited to group chat
+- `addedToGroup` - Added to existing group
+- `kickedFromGroup` - Kicked from group
+- `groupDeleted` - Group chat deleted
+
+### Stream Integration
+- **Chat**: Real-time messaging with typing indicators, reactions, and file sharing
+- **Video**: High-quality video calls with screen sharing capabilities
+- **User Management**: Automatic user synchronization between MongoDB and Stream
+
+## Language Learning Features
+
+1. **Smart Matching**: Algorithm matches users based on native and learning languages
+2. **Cultural Exchange**: Connect with native speakers for authentic practice
+3. **Group Learning**: Join language-specific groups for collaborative learning
+4. **Code Practice**: Practice programming languages while learning human languages
+5. **Video Practice**: Improve pronunciation through video conversations
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## Future Enhancements
+
+1. **AI Language Assistant**: Integration with language learning AI
+2. **Translation Features**: Real-time message translation
+3. **Learning Progress**: Track and gamify language learning progress
+4. **Mobile App**: React Native mobile application
+5. **Advanced Moderation**: AI-powered content moderation for safety
+6. **Language Exchange Events**: Scheduled group learning sessions
+7. **File Sharing**: Document and media sharing in conversations
+8. **Voice Messages**: Audio message support for pronunciation practice
 
 ## License
-MIT
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- [Stream](https://getstream.io/) for chat and video infrastructure
+- [MongoDB](https://www.mongodb.com/) for database services
+- [Tailwind CSS](https://tailwindcss.com/) for styling framework
+- [React](https://reactjs.org/) team for the amazing framework
