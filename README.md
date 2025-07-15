@@ -204,75 +204,7 @@ broconnect/
 - `DELETE /api/groups/:groupId/delete` - Delete group (creator only)
 - `GET /api/groups/:groupId/members/search` - Search group members
 
-## Getting Started
 
-### Prerequisites
-- Node.js 18+ and npm
-- MongoDB (local or Atlas)
-- Stream account (for Chat and Video APIs)
-
-### Installation
-
-1. **Clone the repository**
-```bash
-git clone https://github.com/yourusername/broconnect.git
-cd broconnect
-```
-
-2. **Backend Setup**
-```bash
-cd backend
-npm install
-```
-
-Create `.env` file in backend directory:
-```env
-PORT=5001
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET_KEY=your_jwt_secret
-STEAM_API_KEY=your_stream_api_key
-STEAM_API_SECRET=your_stream_api_secret
-NODE_ENV=development
-```
-
-3. **Frontend Setup**
-```bash
-cd ../frontend
-npm install
-```
-
-Create `.env` file in frontend directory:
-```env
-VITE_STREAM_API_KEY=your_stream_api_key
-```
-
-4. **Start Development Servers**
-
-Backend (port 5001):
-```bash
-cd backend
-npm run dev
-```
-
-Frontend (port 5173):
-```bash
-cd frontend
-npm run dev
-```
-
-### Production Deployment
-
-1. **Build frontend**
-```bash
-cd frontend
-npm run build
-```
-
-2. **Start backend in production mode**
-```bash
-cd backend
-npm start
-```
 
 ## Real-time Features
 
@@ -300,13 +232,6 @@ npm start
 4. **Code Practice**: Practice programming languages while learning human languages
 5. **Video Practice**: Improve pronunciation through video conversations
 
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 ## Future Enhancements
 
@@ -322,10 +247,3 @@ npm start
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- [Stream](https://getstream.io/) for chat and video infrastructure
-- [MongoDB](https://www.mongodb.com/) for database services
-- [Tailwind CSS](https://tailwindcss.com/) for styling framework
-- [React](https://reactjs.org/) team for the amazing framework
